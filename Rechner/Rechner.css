@@ -1,0 +1,53 @@
+#content{
+background-color: orange;
+font-style: normal;
+margin: 140px;
+border-style: dotted;
+border-radius: 10px;
+border-width: 5px;
+}
+
+#number1 {
+    background-color:white;
+    color: black;
+    margin: 20px;
+}
+
+#number2 {
+    background-color:white;
+    color: black;
+    margin: 5px;
+}
+
+
+#plus {
+    color: black;
+    background-color: white;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+ 
+#minus {
+    color: black;
+    background-color: white;
+    margin: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#multi{
+    margin: 5px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    padding: 10px;
+}
+
+#divi {
+    margin: 5px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    padding: 10px;
+}

@@ -1,0 +1,47 @@
+#basement{
+    background-color: aqua;
+    margin: 40px;
+    height: 200px;
+    position: relative;
+}
+#one{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+#two{
+    background-color: greenyellow;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#container{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-between;
+}
+
+#three{
+    background-color: brown;
+    width: 40px;
+    height: 20px;
+}
+
+#four{
+    background-color: chocolate;
+    width: 40px;
+    height: 20px;
+}
+
+#five{
+    background-color: darkcyan;
+    width: 40px;
+    height: 20px;
+}

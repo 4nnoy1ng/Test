@@ -1,0 +1,33 @@
+.basement{
+    background-color: blue;
+    height: 140px;
+    width: 140px;
+}
+
+.one{
+    background-color: blueviolet;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.border{
+    margin-top: 20px;
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    flex-direction: row-reverse;
+ al   
+ 
+}
+
+.green{
+    background-color: chartreuse;
+    height: 40px;
+    margin-top: 10px;
+    width: 40px;
+    margin: 20px;
+    
+}

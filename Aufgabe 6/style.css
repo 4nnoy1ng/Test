@@ -1,0 +1,30 @@
+#card{
+background-color: brown;
+display: flex ;
+justify-content: space-between;
+align-items: center;
+height: 220px;
+width: 650px;
+margin: 5px;
+padding: 10px;
+border-style: solid;
+border-radius: 10px;
+}
+
+#card ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 20px;
+}
+
+#first{
+border-bottom: dashed;
+}
+
+#second{
+
+}
+
+#third{
+
+}

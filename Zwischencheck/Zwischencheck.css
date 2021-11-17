@@ -1,0 +1,95 @@
+.zentriert{
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zentriert h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.zentriert h2{
+    margin: 10px;
+}
+
+.container{
+    margin-left: 10px;
+    display: flex;
+}
+
+.box1{
+    height: 200px;
+    width: 400px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.box2{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.divlist1{
+    margin: 10px;
+}
+
+.divlist1 h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.divlist1 ul{
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.divlist1 ul li{
+    list-style: disc;
+}
+
+.divlist2{
+    margin: 10px;
+}
+
+.divlist2 h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.divlist2 ul{
+ margin: 20px;
+}
+
+.divlist2 ul li{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    background-color: firebrick;
+    color: white;
+}
+
+.divlist2 ul li:hover{
+    background-color: black;
+}
+
+.absolutebox{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
