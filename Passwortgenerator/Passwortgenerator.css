@@ -1,0 +1,30 @@
+#lenght{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 90px;
+    border: solid;
+    border-color: black;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+#generate{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 100px;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+#result1{
+    background-color: whitesmoke;
+    height: 16px;
+    width: 300px;
+    border: solid;
+    border-color: black;
+    margin-top: 10px;
+    padding: 3px;
+}
