@@ -105,14 +105,14 @@ function create ()
     //  Some stars to collect, 12 in total, evenly spaced 70 pixels apart along the x axis
     stars = this.physics.add.group({
         key: 'star',
-        repeat: 0,
-        setXY: { x: 70, y: 500, stepX: 70 }
+        repeat: 11,
+        setXY: { x: 50, y: 0, stepX: 70 }
     });
 
     stars.children.iterate(function (child) {
 
         //  Give each star a slightly different bounce
-        child.setBounceY(Phaser.Math.FloatBetween(0.05,0.05));
+        child.setBounceY(Phaser.Math.FloatBetween(1,1));
 
     });
 
@@ -189,7 +189,7 @@ function  generateBombOnRandomLocation(){
       var x = (player.x < 400) ? Phaser.Math.Between(400, 800) : Phaser.Math.Between(0, 400);
 
         var bomb = bombs.create(x, 16, 'bomb');
-        bomb.setScale(0.1);
+        bomb.setScale(0.05);
         bomb.setBounce(1);
         bomb.setCollideWorldBounds(true);
         bomb.setVelocity(Phaser.Math.Between(-200, 200), 20);
