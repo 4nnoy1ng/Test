@@ -1,0 +1,49 @@
+#header {
+    height: 500px;
+    width: 1871px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#input{
+    background-color: lightblue;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#output{
+    background-color: grey;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+
+#btn1{
+    width: 120px ;
+    height: 30px;
+    background-color: lightblue;
+}
+
+#baseline {
+    background-color: greenyellow;
+    height: 100px;
+    width: 1871px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 90px;
+}
+
+#topline{
+    background-color: violet;
+    height: 100px;
+    width: 1871px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
